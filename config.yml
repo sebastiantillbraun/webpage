@@ -12,9 +12,9 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
+       # - name: Books
+       #   url: books/
+       #   weight: 5 
         - name: Papers
           url: papers/
           weight: 2
@@ -29,7 +29,7 @@ menu:
           weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
+    description: "This website hosts Sebastian Braun's research papers, books, course materials, data, curriculum vitae, and contact information."
     author: Moritz-Maria von Igelfeld
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -60,7 +60,7 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Research/
+            - name: Research
               url: papers/
             - name: Data
               url: data/

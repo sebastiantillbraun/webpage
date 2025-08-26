@@ -20,17 +20,17 @@ menu:
           weight: 2
         - name: Courses
           url: courses/
-          weight: 3
+          weight: 4
         - name: Data
           url: data/
-          weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
-          weight: 6
+          weight: 3
+        #- name: Blog
+        #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #  weight: 6
 
 params:
-    description: "This website hosts Sebastian Braun's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "This website hosts Sebastian Braun's CV, research papers, course materials, data, and contact information"
+    author: Sebastian Till Braun
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -44,7 +44,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["courses","papers","data"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,8 +54,8 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Professor Dr von Igelfeld
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
+          title: Sebastian Till Braun
+          subtitle: "I am a Professor of Economics at the University of Bayreuth, where I hold the chair for Quantitative Economic History (VWL VII). I am also a Research Fellow at the Centre for Research and Analysis of Migration (CReAM), IZA – Institute of Labor Economics, and RWI – Leibniz Institute for Economic Research. Before joining the University of Bayreuth, I was an Associate Professor at the University of St Andrews and a Senior Researcher at the Kiel Institute for the World Economy. I work at the intersection of international and regional economics, labor economics, and quantitative economic history."
           imageUrl: "picture.jpeg"
           imageWidth: 160
           imageHeight: 160
@@ -77,14 +77,14 @@ params:
           url: cv.pdf
         - name: Email
           url: mailto:sebastian.braun@uni-bayreuth.de
-        - name: Location
-          url: location/
+        #- name: Location
+        #  url: location/
         - name: Office Hours
-          url: officehours/
+          url: https://calendly.com/sebastian-braun/officehours
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
         - name: Twitter
-          url: https://x.com/pmichaillat
+          url: https://x.com/SebastianTBraun
         - name: Bluesky
           url: https://bsky.app/profile/sebastiantbraun.bsky.social
 
@@ -94,7 +94,7 @@ params:
         hiddenInList: false
         hiddenInSingle: true
     label:
-      text: "Moritz-Maria von Igelfeld"
+      text: "Sebastian Till Braun"
       icon: favicon.ico
       iconHeight: 18
 

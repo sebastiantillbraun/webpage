@@ -15,21 +15,24 @@ menu:
        # - name: Books
        #   url: books/
        #   weight: 5 
+        - name: About
+          url: about/
+          weight: 5
         - name: Papers
           url: papers/
           weight: 2
-        - name: Courses
-          url: courses/
-          weight: 4
+        #- name: In Progress
+        #  url: progress/
+          weight: 3
         - name: Data
           url: data/
-          weight: 3
+          weight: 4
         #- name: Blog
         #  url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
         #  weight: 6
 
 params:
-    description: "This website hosts Sebastian Braun's CV, research papers, course materials, data, and contact information"
+    description: "This website hosts Sebastian Braun's CV, research papers, data, and contact information"
     author: Sebastian Till Braun
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -55,19 +58,21 @@ params:
     profileMode:
           enabled: true
           title: Sebastian Till Braun
-          subtitle: "I am a Professor of Economics at the University of Bayreuth, where I hold the chair for Quantitative Economic History (VWL VII). I am also a Research Fellow at the Centre for Research and Analysis of Migration (CReAM), IZA – Institute of Labor Economics, and RWI – Leibniz Institute for Economic Research. Before joining the University of Bayreuth, I was an Associate Professor at the University of St Andrews and a Senior Researcher at the Kiel Institute for the World Economy. I work at the intersection of international and regional economics, labor economics, and quantitative economic history."
-          imageUrl: "picture.jpeg"
+          subtitle: "I am a Professor of Economics at the University of Bayreuth, where I hold the chair for Quantitative Economic History. I work at the intersection of international and regional economics, labor economics, and quantitative economic history."
+          imageUrl: "pictureneu.jpg"
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Research
+            - name: Papers
               url: papers/
+            #- name: In Progress
+            #   url: progress/
             - name: Data
               url: data/
-            - name: Courses
-              url: courses/
-            - name: Tags
-              url: tags/
+            #- name: Tags
+             # url: tags/
+            - name: About
+              url: about/
             - name: Archive
               url: archive/
 
@@ -82,7 +87,7 @@ params:
         - name: Office Hours
           url: https://calendly.com/sebastian-braun/officehours
         - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+          url: https://scholar.google.de/citations?user=ko1Ng4EAAAAJ
         - name: Twitter
           url: https://x.com/SebastianTBraun
         - name: Bluesky

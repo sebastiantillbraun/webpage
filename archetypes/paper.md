@@ -6,6 +6,7 @@ aliases:
     - /old_url.html
 tags: ["keyword 1","keyword 2","keyword 3","keyword 4","keyword 5","keyword 6","keyword 7","keyword 8"]
 author: ["Paper Author 1", "Paper Author 2"]
+status: "published/accepted/in progress"  
 description: "Paper description for search engines (less than 155 characters)" 
 summary: "Paper summary for list page (less than 265 characters)"
 cover:
@@ -14,7 +15,7 @@ cover:
     relative: true
 editPost:
     URL: "https://doi.org/paper_doi"
-    Text: "Journal/Repository Name"
+    Text: "Journal/Name"
 
 ---
 

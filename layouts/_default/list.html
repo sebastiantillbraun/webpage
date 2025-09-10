@@ -67,6 +67,9 @@
   {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
     <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    {{- with .Params.editPost.Text }}
+      <span style="display:block; margin-top:0.5em;" class="publication-outlet"><em>{{ . }}</em></span>
+    {{- end }}
   </div>
   {{- end }}
   {{- if not (.Param "hideMeta") }}

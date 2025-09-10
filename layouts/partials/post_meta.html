@@ -1,23 +1,29 @@
 {{- $scratch := newScratch }}
 
+{{- $dateMeta := "" -}}
 {{- if not .Date.IsZero -}}
-{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
+  {{- $dateMeta = printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)) -}}
 {{- end }}
 
+{{- $authorMeta := "" -}}
+{{- if not (.Param "hideAuthor") -}}
+  {{- $authorMeta = partial "author.html" . -}}
+{{- end }}
+
+{{- $mainMeta := slice $dateMeta $authorMeta }}
+{{- with .Params.status }}
+  {{- $mainMeta = $mainMeta | append (printf "<span class='status'>%s</span>" .) }}
+{{- end }}
+{{- $scratch.Add "meta" $mainMeta }}
+
 {{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+  {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
 {{- end }}
 
 {{- if (.Param "ShowWordCount") -}}
-{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
-{{- end }}
-
-{{- if not (.Param "hideAuthor") -}}
-{{- with (partial "author.html" .) }}
-{{- $scratch.Add "meta" (slice .) }}
-{{- end }}
+  {{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
 {{- end }}
 
 {{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;&middot;&nbsp;" | safeHTML -}}
+  {{- delimit . "&nbsp;&middot;&nbsp;" | safeHTML -}}
 {{- end -}}

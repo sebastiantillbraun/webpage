@@ -1,5 +1,5 @@
 ---
-title: "From Weimar to West Germany: Confessional Cleavages and Far-Right Voting" 
+title: "Confessional Cleavages, Party Fragmentation, and Far-Right Voting" 
 date: 2026-06-01
 url: /paper/paper2026-weimar
 tags: ["cleavage politics","party fragmentation","religion","far-right voting","historical political economy","Germany"]

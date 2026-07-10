@@ -1,19 +1,19 @@
 ---
 title: "Labor Market Consequences of WWII over the Life Cycle" 
-date: 2025-07-01
+date: 2026-06-01
 url: /paper/paper2026-war-exposure
 aliases: 
     - /old_url.html
 tags: ["World War II","labor market careers","war injuries","prisoners of war","displacement","life-cycle models"]
 author: ["Sebastian T. Braun", "Jan Stuhler"]
-status: "accepted"  
+status: "published"  
 description: "This paper studies the effect of war exposure (displaced, injured, POW) on labor market careers." 
 summary: "This paper studies the effects of WWII exposure, including displacement, injury, and captivity, on labor market careers, revealing that these effects often became apparent long after the war's end."
 #cover:
 #    image: "BraunStuhler2026-lifecycle.jpg"
 #    relative: true
 editPost:
-    URL: ""
+    URL: "https://doi.org/10.1017/S0022050725101113"
     Text: "The Journal of Economic History"
 
 ---
@@ -22,7 +22,7 @@ editPost:
 
 ##### Download:
 
-- [Accepted paper](BraunStuhler2026-AcceptedPaper.pdf)
+- [Published paper](BraunStuhler2026-PublishedPaper.pdf)
 - [Online appendix](BraunStuhler2026-Appendix.pdf)
 
 ---
@@ -35,17 +35,18 @@ With 70 million dead, World War II remains the most devastating conflict in hist
 
 ##### Citation
 
-Sebastian T. Braun and Jan Stuhler (2025). "Exposure to World War II and Its Labor Market Consequences over the Life Cycle." *arXiv*: 2303.14486v2 [econ.GN]. https://arxiv.org/abs/2303.14486.
+Sebastian T. Braun and Jan Stuhler (2026). "Exposure to World War II and Its Labor Market Consequences over the Life Cycle." *The Journal of Economic History*, 86(2): 389--426. https://doi.org/10.1017/S0022050725101113.
 
 ```BibTeX
-@article{Braun-Stuhler-2025,
+@article{Braun-Stuhler-2026,
 title={Exposure to World War II and Its Labor Market Consequences over the Life Cycle}, 
 author = {Sebastian T. Braun and Jan Stuhler},
-doi = {https://arxiv.org/abs/2303.14486},
-      year={2025},
-      eprint={2303.14486},
-      archivePrefix={arXiv},
-      primaryClass={econ.GN}}
+volume={86}, 
+DOI={10.1017/S0022050725101113}, 
+number={2}, 
+journal={The Journal of Economic History}, 
+year={2026}, 
+pages={389–426}}
 ```
 
 ---
